@@ -1,6 +1,10 @@
 # Car $CO_2$ Emission Prediction
 A machine learning project featuring a Neural Network designed to predict vehicle $CO_2$ emissions, complete with an interactive Streamlit web interface.
 
+## Live Demo
+
+Try the app: [carco2emission.streamlit.app](https://carco2emission.streamlit.app/).
+
 ## Features
 - **Neural Network Core:** A Keras-based regression model trained to predict $CO_2$ emissions ($g/km$) based on vehicle specifications.
 - **Integrated Pipeline:** Uses a saved ColumnTransformer to ensure data scaling and encoding are identical between training and the live UI.
